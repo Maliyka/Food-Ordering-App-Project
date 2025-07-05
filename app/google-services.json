@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642239584594",
+    "project_id": "feastly-fling-a77b4",
+    "storage_bucket": "feastly-fling-a77b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642239584594:android:92e60314a7772d06db428b",
+        "android_client_info": {
+          "package_name": "com.example.feastlyfling"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtm0FvRZlJeOd2Oh0wceTbvZJL_vFbToE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,7 +7,7 @@
         android:icon="@drawable/home_04"/>
     <item android:title="@string/cart"
         android:id="@+id/cartFragment"
-        android:icon="@drawable/notification_cart"/>
+        android:icon="@drawable/cart"/>
     <item android:title="@string/search"
         android:id="@+id/searchFragment"
         android:icon="@drawable/search_refraction"/>

@@ -8,6 +8,22 @@
     android:layout_height="match_parent"
     tools:context=".LocationActivity">
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ContinueButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/redbuttongradient"
+        android:fontFamily="@font/yeon_sung"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:layout_goneMarginTop="16dp" />
+
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"

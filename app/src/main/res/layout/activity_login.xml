@@ -10,6 +10,21 @@
     tools:context=".LoginActivity">
 
     <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/degsined_by_nmaliyka_manahil"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NotHaveButton" />
+
+    <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,7 +60,7 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/logintext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
@@ -58,7 +73,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/LoginPassword"
         android:layout_width="325dp"
         android:layout_height="57dp"
         android:layout_marginTop="16dp"
@@ -71,12 +86,12 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:paddingLeft="15dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintEnd_toEndOf="@+id/LoginEmail"
+        app:layout_constraintStart_toStartOf="@+id/LoginEmail"
+        app:layout_constraintTop_toBottomOf="@+id/LoginEmail" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/LoginEmail"
         android:layout_width="325dp"
         android:layout_height="57dp"
         android:layout_marginTop="30dp"
@@ -89,9 +104,9 @@
         android:hint="Email or Phone Number"
         android:inputType="textEmailAddress"
         android:paddingLeft="15dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView10"
-        app:layout_constraintStart_toStartOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintEnd_toEndOf="@+id/logintext"
+        app:layout_constraintStart_toStartOf="@+id/logintext"
+        app:layout_constraintTop_toBottomOf="@+id/logintext" />
 
     <TextView
         android:id="@+id/textView12"
@@ -100,9 +115,9 @@
         android:layout_marginTop="5dp"
         android:text="Or"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintEnd_toEndOf="@+id/LoginPassword"
+        app:layout_constraintStart_toStartOf="@+id/LoginPassword"
+        app:layout_constraintTop_toBottomOf="@+id/LoginPassword" />
 
     <TextView
         android:id="@+id/textView14"

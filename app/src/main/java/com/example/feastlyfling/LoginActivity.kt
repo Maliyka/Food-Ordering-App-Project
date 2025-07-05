@@ -31,6 +31,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
         binding.NotHaveButton.setOnClickListener {
             val intent = Intent(this, SignupActivity::class.java)
             startActivity(intent)

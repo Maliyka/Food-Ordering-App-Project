@@ -1,5 +1,6 @@
 package com.example.feastlyfling
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView // Import AutoCompleteTextView
@@ -29,5 +30,11 @@ class LocationActivity : AppCompatActivity() {
          val autoCompleteTextView: AutoCompleteTextView = binding.ListOfLocation as AutoCompleteTextView
 
         autoCompleteTextView.setAdapter(adapter)
+
+        binding.ContinueButton.setOnClickListener {
+            val intent =Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
